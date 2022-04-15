@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+    <!-- Header section starts -->
+    <header>
+        <div class="logo">
+            <h3>city<span>Cycles</span><i class="fa-solid fa-person-biking"></i></h3>
+        </div>
+        <div class="icons">
+            <i class="fa-solid fa-bars" id="menu-btn"></i>
+            <h3 id="login-btn">login</h3>
+        </div>
+        <div class="login">
+            <input type="text" placeholder="username" class="user">
+            <input type="text" placeholder="password" class="pass">
+            <div class="sub-input">
+                <a href="#">forgot password ?</a>
+                <a href="#">sign up</a>
+            </div>
+            <a href="#" class="btn">sign in</a>          
+        </div>
+    </header>
+    <!-- Header section ends -->
+
+    <!-- Sidebar section starts -->
+        <section class="sidebar">
+            <a href="#mission"><i class="fa-solid fa-circle-check"></i><span class="s2">Mission</span></a>
+            <a href="#services"><i class="fa-solid fa-screwdriver-wrench"></i><span class="s2">Services</span></a>
+            <a href="#road"><i class="fa-solid fa-road"></i><span class="s2">Road</span></a>
+            <a href="#dirt"><i class="fa-solid fa-mountain"></i><span class="s2">Dirt</span></a>
+            <a href="#commute"><i class="fa-solid fa-business-time"></i><span class="s2">Commute</span></a>
+            <a href="#electric"><i class="fa-solid fa-bolt"></i><span class="s2">Electric</span></a>
+            <a href="#equipment"><i class="fa-solid fa-helmet-safety"></i><span class="s2">Equipment</span></a>
+            <a href="#membership"><i class="fa-solid fa-users"></i><span class="s2">Community</span></a>
+            <a href="#contact"><i class="fa-solid fa-envelope"></i><span class="s2">Contact</span></a>
+        </section>
+    <!-- Sidebar section ends -->
+
+    <!-- Main background section starts -->
+    <section class="main">
+        
+    </section>
+    <!-- Main background section starts -->
+
+    <!-- Mission section starts -->
+        <section class="mission" id="mission">
+            <div class="section-title">
+                <h3>mission</h3>
+            </div>
+            <div class="content-container">
+                <div class="image">
+                    <img src="/images/mission-image-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <i class="fa-solid fa-quote-left" id="left"></i>
+                    <i class="fa-solid fa-quote-right" id="right"></i>
+                    <p>
+                        Here at CityCycles, we aim to bring the joy of cycling to anyone and everyone,
+                        regardless of circumstance or background. Just bring a positive attitude (and a helmet !)
+                        and we'll take care of the rest. 
+                        <!-- If you have a positive attitude and the 
+                        desire to experience something new, exciting, and healthy, then CItyCycles is here 
+                        to welcome you ! -->
+                    </p>
+                </div>
+            </div>
+        </section>
+    <!-- Mission section ends -->
+
+    <!-- Services section starts -->
+        <section class="services" id="services">
+            <div class="section-title">
+                <h3>services</h3>
+            </div>
+            <div class="content-container">
+                <div class="box">
+                    <div class="image-container">
+                        <img src="/images/service-image-1.jpg" alt="">
+                    </div>
+                    <div class="body">
+                        <h3>brakes</h3>
+                        <p>full-service brake repair and replacement.</p>
+                        <button class="btn" id="modal-one">schedule service<i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image-container">
+                        <img src="/images/service-image-2.jpg" alt="">
+                    </div>
+                    <h3>flats</h3>
+                    <div class="body">
+                        <p>flat repairs, tube and tire replacement.</p>
+                        <button class="btn" id="modal-two">schedule service<i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image-container">
+                        <img src="/images/service-image-3.jpg" alt="">
+                    </div>
+                    <h3>tune-up</h3>
+                    <div class="body">
+                        <p>bring your bike back to life !</p>
+                        <button class="btn" id="modal-three">schedule service<i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image-container">
+                        <img src="/images/service-image-4.jpg" alt="">
+                    </div>
+                    <h3>cleaning</h3>
+                    <div class="body">
+                        <p>top-to-bottom cleaning and greasing.</p>
+                        <button class="btn" id="modal-four">schedule service<i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image-container">
+                        <img src="/images/service-image-5.jpg" alt="">
+                    </div>
+                    <h3>wheel alignment</h3>
+                    <div class="body">
+                        <p>take the wobble out of your wheels.</p>
+                        <button class="btn" id="modal-five">schedule service<i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image-container">
+                        <img src="/images/service-image-6.jpg" alt="">
+                    </div>
+                    <h3>gear work</h3>
+                    <div class="body">
+                        <p>Smooth, delay-free gear changes.</p>
+                        <button class="btn" id="modal-six">schedule service<i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                    </div>
+                </div>
+            </div>
+            <dialog class="modal" id="modal">
+                <div class="icon-container">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                </div>
+                <div class="content-container">
+                    <i class="fa-solid fa-xmark" id="modal-close"></i>
+                    <form action="">
+                        <label for="">enter contact and desired service date</label>
+                        <input type="text" placeholder="name">
+                        <input type="email" placeholder="email">
+                        <input type="date" id="service-date">
+                        <button class="btn">submit</button>
+                    </form>
+                </div>
+            </dialog>
+        </section>
+    <!-- Services section ends -->
+
+    <!-- Road sectoin starts -->
+    <section class="road" id="road">
+        <div class="section-title">
+            <h3>road</h3>
+        </div>
+        <div class="content-container">
+            
+            <div class="box single-span-one">
+                <div class="box-title">
+                    <a href="">geared</a>
+                </div>
+                <div class="info">
+                    <p>Multi-geared road bikes. Tackle hill climbs and descents with ease !</p>
+                </div>
+                <div class="image">
+                    <img src="/images/road-image-1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="box single-span-two">
+                <div class="box-title">
+                    <a href="">single speed</a>
+                </div>
+                <div class="info">
+                    <p>Easy to ride, easy to maintain. The perfect no-frills, get-up-and-go bike !</p>
+                </div>
+                <div class="image">
+                    <img src="/images/road-image-2.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="box single-span-three">
+                <div class="box-title">
+                    <a href="">fixed gear</a>
+                </div>
+                <div class="info">
+                    <p>Stylish, and a blast to ride ! perfect for a weekend cruise through the city.</p>
+                </div>
+                <div class="image">
+                    <img src="/images/road-image-3.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="image-container multi-span">
+                <img src="/images/road-image-4.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+    <!-- Road section ends -->
+
+    <!-- Dirt sectoin starts -->
+    <section class="dirt" id="dirt">
+        <div class="section-title">
+            <h3>dirt</h3>
+        </div>
+        <div class="content-container">
+
+            <div class="image-container multi-span">
+                <img src="/images/dirt-image-1.jpg" alt="">
+            </div>
+            
+            <div class="box single-span-one">
+                <div class="box-title">
+                    <a href="">Trail</a>
+                </div>
+                <div class="info">
+                    <p>A good middle-ground, trail bikes offer climbing ability with the comfort of added suspension.</p>
+                </div>
+                <div class="image">
+                    <img src="/images/dirt-image-2.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="box single-span-two">
+                <div class="box-title">
+                    <a href="">Cross Country</a>
+                </div>
+                <div class="info">
+                    <p>Built for pedal-performance, these bikes are great for steep inclines and sustained, fast-paced riding.</p>
+                </div>
+                <div class="image">
+                    <img src="/images/dirt-image-3.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="box single-span-three">
+                <div class="box-title">
+                    <a href="">Downhill</a>
+                </div>
+                <div class="info">
+                    <p>As the name implies, these bikes are meant for steep, burly, downhill terrain.</p>
+                </div>
+                <div class="image">
+                    <img src="/images/dirt-image-4.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Dirt section ends -->
+
+    <!-- Commute section starts -->
+    <section class="commute" id="commute">
+        <div class="section-title">
+            <h3>commute</h3>
+        </div>
+        <div class="content-container">
+            
+            <div class="box single-span-one">
+                <div class="box-title">
+                    <a href="">geared</a>
+                </div>
+                <div class="info">
+                    <p>The easiest and fastest way to get to ride to work. Handle hills with ease !</p>
+                </div>
+                <div class="image">
+                    <img src="/images/commute-image-1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="box single-span-two">
+                <div class="box-title">
+                    <a href="">folding</a>
+                </div>
+                <div class="info">
+                    <p>Want a portable option for bringing your bike into the office ? Folding bikes are for you !</p>
+                </div>
+                <div class="image">
+                    <img src="/images/commute-image-2.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="box single-span-three">
+                <div class="box-title">
+                    <a href="">cargo</a>
+                </div>
+                <div class="info">
+                    <p>Bringing more than just a backpack along for the ride ? Utility bikes offer the storage space you'll need.</p>
+                </div>
+                <div class="image">
+                    <img src="/images/commute-image-3.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="image-container multi-span">
+                <img src="/images/commute-image-4.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+    <!-- Commute section ends -->
+
+    <!-- Dirt sectoin starts -->
+    <section class="electric" id="electric">
+        <div class="section-title">
+            <h3>electric</h3>
+        </div>
+        <div class="content-container">
+
+            <div class="image-container multi-span">
+                <img src="/images/electric-image-1.jpg" alt="">
+            </div>
+            
+            <div class="box single-span-one">
+                <div class="box-title">
+                    <a href="">Road</a>
+                </div>
+                <div class="info">
+                    <p>Great for commuting, or casual rides around town.</p>
+                </div>
+                <div class="image">
+                    <img src="/images/electric-image-2.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="box single-span-two">
+                <div class="box-title">
+                    <a href="">Dirt</a>
+                </div>
+                <div class="info">
+                    <p>Need a bit of help getting up those hills ? Electric mountain bikes are a great option.</p>
+                </div>
+                <div class="image">
+                    <img src="/images/electric-image-3.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="box single-span-three">
+                <div class="box-title">
+                    <a href="">Scooter</a>
+                </div>
+                <div class="info">
+                    <p>If portability and ease of use is what you're looking for, then look no further !</p>
+                </div>
+                <div class="image">
+                    <img src="/images/electric-image-4.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Dirt section ends -->
+
+    <!-- Equipment section starts -->
+        <section class="equipment" id="equipment">
+            <div class="section-title">
+                <h3>equipment</h3>
+            </div>
+            <div class="content-container">
+                <div class="box">
+                    <div class="image-container">
+                        <img src="/images/equip-image-1.jpg" alt="">
+                    </div>
+                    <div class="body">
+                        <h3>helmets & pads</h3>
+                        <p>get all your safety gear here !</p>
+                        <a href="#" class="btn">view all<i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image-container">
+                        <img src="/images/equip-image-2.jpg" alt="">
+                    </div>
+                    <h3>apparel</h3>
+                    <div class="body">
+                        <p>gloves, padded shorts, sunglasses, and more !</p>
+                        <a href="#" class="btn">view all<i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image-container">
+                        <img src="/images/equip-image-3.jpg" alt="">
+                    </div>
+                    <h3>electronics</h3>
+                    <div class="body">
+                        <p>we stock gps devices and smart watches.</p>
+                        <a href="#" class="btn">view all<i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image-container">
+                        <img src="/images/equip-image-4.jpg" alt="">
+                    </div>
+                    <h3>supplements</h3>
+                    <div class="body">
+                        <p>protein powder, energy gels, vitamins.</p>
+                        <a href="#" class="btn">view all<i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image-container">
+                        <img src="/images/equip-image-5.jpg" alt="">
+                    </div>
+                    <h3>parts</h3>
+                    <div class="body">
+                        <p>Wheels, tires, brake parts, seats, and more !</p>
+                        <a href="#" class="btn">view all<i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image-container">
+                        <img src="/images/equip-image-6.jpg" alt="">
+                    </div>
+                    <h3>tools</h3>
+                    <div class="body">
+                        <p>all the tools you need to work on your ride.</p>
+                        <a href="#" class="btn">view all<i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- Equipment section ends -->
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
