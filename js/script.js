@@ -6,6 +6,11 @@ let missionSection = document.querySelector('.mission');
 let servicesSection = document.querySelector('.services');
 let equipmentSection = document.querySelector('.equipment');
 let roadSection = document.querySelector('.road');
+let dirtSection = document.querySelector('.dirt');
+let commuteSection = document.querySelector('.commute');
+let electricSection = document.querySelector('.electric');
+let communitySection = document.querySelector('.community');
+let contactSection = document.querySelector('.contact');
 
 
 menuBtn.onclick = () => {
@@ -14,6 +19,11 @@ menuBtn.onclick = () => {
     servicesSection.classList.toggle('active');
     equipmentSection.classList.toggle('active');
     roadSection.classList.toggle('active');
+    dirtSection.classList.toggle('active');
+    commuteSection.classList.toggle('active');
+    electricSection.classList.toggle('active');
+    communitySection.classList.toggle('active');
+    contactSection.classList.toggle('active');
 }
 
 loginBtn.onclick = () => {
